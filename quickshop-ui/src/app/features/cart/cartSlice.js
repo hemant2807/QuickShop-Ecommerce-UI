@@ -16,6 +16,14 @@ export const cartSlice = createSlice({
     addToCart: (state, action) => {
       const productToAdd = action.payload.product;
       const quantity = action.payload.num;
+      fetch("http://localhost:5000/api/cart", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productId: productToAdd.id,
+          qty: quantity,
+        }),
+      }).catch((err) => console.error("Backend addToCart error:", err));
       const productExit = state.cartList.find(
         (item) => item.id === productToAdd.id
       );
@@ -48,6 +56,9 @@ export const cartSlice = createSlice({
     },
     deleteProduct: (state, action) => {
       const productToDelete = action.payload;
+      fetch(`http://localhost:5000/api/cart/${productToDelete.id}`, {
+        method: "DELETE",
+      }).catch((err) => console.error("Delete failed:", err));
       state.cartList = state.cartList.filter(
         (item) => item.id !== productToDelete.id
       );

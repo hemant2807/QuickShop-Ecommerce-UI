@@ -17,9 +17,9 @@ footer h1 {
 
 footer .logo {
   color: white;
-  display:flex;
-  align-items:center;
-  gap:5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   margin-bottom: 20px;
 }
 footer h2 {

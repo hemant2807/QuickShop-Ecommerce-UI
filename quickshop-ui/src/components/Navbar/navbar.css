@@ -1,4 +1,3 @@
-/* Navbar Section  */
 .navbar {
   position: relative !important;
   background-color: white;
@@ -173,7 +172,7 @@
   display: none;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .navbar-toggler span {
     width: 25px !important;
     height: 3px !important;
@@ -195,5 +194,4 @@
     align-items: flex-end;
     gap: 5px;
   }
-  
 }
