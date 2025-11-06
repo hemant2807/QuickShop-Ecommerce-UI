@@ -196,7 +196,12 @@ Orders are saved to MongoDB Atlas → Database: `QuickShop` → Collection: `ord
 
 ## 🎬 Demo Video
 
-[![Watch on YouTube](https://img.youtube.com/vi/Pm46Q_rFo-U/hqdefault.jpg)](https://youtu.be/Pm46Q_rFo-U)
+<p align="left">
+  <a href="https://youtu.be/Pm46Q_rFo-U" target="_blank">
+    <img src="https://img.youtube.com/vi/Pm46Q_rFo-U/hqdefault.jpg" alt="Watch the demo on YouTube" width="360" />
+  </a>
+  
+</p>
 
 ---
 
