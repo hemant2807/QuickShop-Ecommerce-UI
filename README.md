@@ -198,7 +198,7 @@ Orders are saved to MongoDB Atlas → Database: `QuickShop` → Collection: `ord
 
 <p align="left">
   <a href="https://youtu.be/Pm46Q_rFo-U" target="_blank">
-    <img src="https://img.youtube.com/vi/Pm46Q_rFo-U/hqdefault.jpg" alt="Watch the demo on YouTube" width="360" />
+    <img src="https://www.pngplay.com/wp-content/uploads/9/Youtube-Logo-Transparent-PNG.png" alt="Watch the demo on YouTube" width="360" />
   </a>
   
 </p>
