@@ -44,28 +44,51 @@ Implements product listing, cart management, checkout flow, backend APIs, MongoD
 
 ## 📁 Project Structure
 
-QuickShop/
-│
+```
+QuickShop-Ecommerce-UI/
 ├── backend/
 │   ├── routes/
 │   │   ├── products.js
 │   │   └── cart.js
 │   ├── models/
-│   │   └── Order.js
+│   │   └── order.js
 │   ├── server.js
-│   ├── package.json
-│   └── .env
+│   └── package.json
 │
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── app/ (Redux store)
-    │   └── utils/
-    ├── package.json
-    └── public/
-
-
+├── quickshop-ui/
+│   ├── public/
+│   │   └── screenshots/            
+│   │       ├── home.png
+│   │       ├── product.png
+│   │       ├── cart.png
+│   │       └── checkout.png
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Banner/
+│   │   │   │   └── Banner.jsx
+│   │   │   ├── ProductDetails/
+│   │   │   │   ├── ProductDetails.jsx
+│   │   │   │   └── product-details.css
+│   │   │   ├── ProductReviews/
+│   │   │   │   └── ProductReviews.jsx
+│   │   │   ├── SeachBar/
+│   │   │   │   └── SearchBar.jsx
+│   │   │   └── FilterSelect.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Shop.jsx
+│   │   │   ├── Product.jsx
+│   │   │   └── Cart.jsx
+│   │   ├── utils/
+│   │   │   └── products.js
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── README.md
+└── .gitignore
+```
+ 
 ---
 
 ## 🛠️ Tech Stack
@@ -170,6 +193,10 @@ GET http://localhost:5000/api/products/external
     ```
 
 Orders are saved to MongoDB Atlas → Database: `QuickShop` → Collection: `orders`.
+
+## 🎬 Demo Video
+
+[![Watch on YouTube](https://img.youtube.com/vi/Pm46Q_rFo-U/hqdefault.jpg)](https://youtu.be/Pm46Q_rFo-U)
 
 ---
 
